@@ -1,4 +1,4 @@
-package com.aravindan.springframework.model;
+package com.aravindan.springframework.spring5webapp.model;
 
 import java.util.HashSet;
 import java.util.Set;

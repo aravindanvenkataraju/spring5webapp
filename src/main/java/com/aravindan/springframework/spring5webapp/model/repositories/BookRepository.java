@@ -1,27 +1,27 @@
-package com.aravindan.springframework.model.repositories;
+package com.aravindan.springframework.spring5webapp.model.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.aravindan.springframework.model.Author;
+import com.aravindan.springframework.spring5webapp.model.Book;
 
-public interface AuthorRepository extends CrudRepository<Author, Long> {
+public interface BookRepository extends CrudRepository<Book, Long> {
 
 	@Override
-	default <S extends Author> S save(S entity) {
+	default <S extends Book> S save(S entity) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	default <S extends Author> Iterable<S> saveAll(Iterable<S> entities) {
+	default <S extends Book> Iterable<S> saveAll(Iterable<S> entities) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	default Optional<Author> findById(Long id) {
+	default Optional<Book> findById(Long id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -33,13 +33,13 @@ public interface AuthorRepository extends CrudRepository<Author, Long> {
 	}
 
 	@Override
-	default Iterable<Author> findAll() {
+	default Iterable<Book> findAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	default Iterable<Author> findAllById(Iterable<Long> ids) {
+	default Iterable<Book> findAllById(Iterable<Long> ids) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -57,13 +57,13 @@ public interface AuthorRepository extends CrudRepository<Author, Long> {
 	}
 
 	@Override
-	default void delete(Author entity) {
+	default void delete(Book entity) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	default void deleteAll(Iterable<? extends Author> entities) {
+	default void deleteAll(Iterable<? extends Book> entities) {
 		// TODO Auto-generated method stub
 		
 	}
