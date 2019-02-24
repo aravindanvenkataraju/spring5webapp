@@ -13,7 +13,6 @@ public class BookController {
 	
 	
 	public BookController(BookRepository bookRepository) {
-		super();
 		this.bookRepository = bookRepository;
 	}
 
